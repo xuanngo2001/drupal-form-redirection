@@ -1,0 +1,7 @@
+tradesteps.form_redirection:
+  path: '/form_redirection'
+  defaults:
+    _form: 'Drupal\tradesteps\Form\FormRedirection'
+    _title: 'Form Redirection'
+  requirements:
+    _permission: 'access content'
